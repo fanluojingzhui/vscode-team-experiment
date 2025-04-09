@@ -1,5 +1,11 @@
-#main.py
+# main.py
 def greet(name):
-    print(f"Hello,{name}!")
+    print(f"Hello, {name}!")
 
-greet("Github")
+
+def goodbye(name):
+    print(f"Goodbye, {name}!")
+
+
+greet("GitHub")
+goodbye("GitHub")
